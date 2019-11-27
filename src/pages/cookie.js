@@ -100,7 +100,6 @@ export default class FirstPage extends React.Component {
       <View style={styles.container}>
 
         <LottieView source={require('../assets/animation.json')} autoPlay loop />;
-        <ImageBackground source={require('../assets/back2.png')} style={{ width: '100%', height: '100%', justifyContent: 'center', flex: 1 }}>
           <View style={styles.verifyContainer}>
             <Icon name='wifi' color={this.state.color} size={30} style={{marginRight: 250}} />
 
